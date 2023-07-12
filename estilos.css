@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/* font-family: 'Caveat', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans',sans-serif; */
+
+body {
+    background-color: #F2E0BD;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-image: linear-gradient(rgb(186, 124, 0),rgb(0, 0, 0));
+    font-size: 18px;
+    color: white;
+    border-spacing: 50px;
+}
+
+.menu {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.nome {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px
+}
+
+#nome1 {
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px 
+    
+}
+
+.index {
+    color: white;
+    background-color: rgb(34, 34, 34);
+    width: 1%;
+    white-space: nowrap;
+    border-radius: 15px;
+}
+
+.indexLetra {
+    font-size: 33px;
+    color: rgb(183, 183, 254);
+}
+
+.indexmar {
+    margin-left: 20px;
+}
+
+.leitura {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.minibio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 37px;
+}
+
+.hab {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.foto {
+    border-radius: 80px;
+    margin-left: 110px;
+}
+
+.foto2 {
+    border-radius: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.contateMe {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 13px;
+    width: 160px;
+    background-color: rgb(41, 41, 155);
+    border-radius: 10px;
+}
+
+.linkMenu:hover {
+    background-color: rgb(79, 79, 159);
+    color: white;
+}
+
+.linkMenu {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.ativado {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.contatoOutras {
+    font-size: 20px;
+}
+
+.enviar {
+    background-color: rgb(41, 41, 155);
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rodape {
+    background-color: white;
+}

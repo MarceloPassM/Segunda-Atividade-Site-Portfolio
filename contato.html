@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portfólio Web</title>
+</head>
+
+<body>
+    <table border="0" align="center" width="100%" cellspacing="0" class="cabecalho">
+        <tr>
+            <td rowspan="2"><img src="img/FotoCabecalho.jpeg" alt="FotoCabecalho.jpeg" width="100" class="foto"></td>
+            <td height="40" width="88%" class="nome"><b>Marcelo Passamai Marques</b></td>
+        </tr>
+        <tr>
+            <td height="20">Designer e Desenvolvedor Web</td>
+        </tr>
+    </table>
+    <p></p> <br>
+    <table border="0" width="80%" align="center" cellspacing="18" class="menu">
+        <tr>
+            <td width="25%" height="55" align="center"><a href="index.html" class="linkMenu">Principal</a></td>
+            <td width="25%" align="center"><a href="quemsou.html" class="linkMenu">Quem Sou</a></td>
+            <td width="25%" align="center"><a href="projetos.html" class="linkMenu">Projetos</a></td>
+            <td width="25%" align="center"><a href="contato.html" class="ativado">Contato</a></td>
+        </tr>
+    </table>
+    <p></p><br>
+    <table border="0" width="80%" align="center" cellspacing="18" class="leitura">
+        <tr>
+            <td><b class="minibio">Entre em contato!</b><br>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei. Será um prazer lhe atender!</td>
+        </tr>
+    </table>
+    <table border="0" width="80%" align="center" cellspacing="18" class="leitura">
+        <tr>
+            <td><form method="post">
+                <p><label for="txtAssunto">Assunto</label><br>
+                <select name="Assunto" id="txtAssunto" required> 
+                    <option value="Assunto" selected disabled>Selecione o assunto</option>
+                    <option value="Trabalho">Trabalho</option>
+                    <option value="Pesquisa">Pesquisa</option>
+                    <option value="Programacao">Programação</option>
+                </select></p>
+                <p><label for="txtNome">Nome</label><br>
+                <input type="text" id="txtNome" name="Nome" placeholder="Beltrano de Tal" required size="20px"></p>
+                <p><label for="txtEmail">E-mail</label><br>
+                <input type="email" id="txtEmail" name="Email" placeholder="beltrano@gmail.com" required size="20px"></p>
+                <p><label for="txtTelefone">Telefone</label><br>
+                <input type="tel" id="txtTelefone" name="Telefone" placeholder="(27) 99999-9999" required size="20px"></p>
+                <p><label for="txtMensagem">Mensagem</label><br>
+                <textarea name="Mensagem" id="txtMensagem" cols="20" rows="10" size="20px"></textarea></p>
+                <p><input type="submit" value="Enviar" class="enviar"></p>
+                <hr>
+            </form></td>
+        </tr>
+        <tr>
+            <td><b class="contatoOutras">Outras formas de contato:</b><ul>
+                <li>Residente em Vila Velha/ES</li>
+                <li><a href="https://mail.google.com/">marcelo.passamaim@gmail.com</a></li>
+                <li>(27) 99583-0853</li>
+                <li>Instagram: <a href="https://www.instagram.com/">@marcelo_pass</a></li>
+            </ul></td>
+        </tr>
+    </table>
+    <p></p><br>
+    <table border="0" align="center" width="100%" cellspacing="0" class="rodape">
+        <tr>
+            <td align="center">Copyrigth © 2022 <br><img src="img/ifes.png" alt="ifes.png" width="90"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
